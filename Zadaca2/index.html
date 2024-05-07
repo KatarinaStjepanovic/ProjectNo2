@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the celebrity</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <script src="https://kit.fontawesome.com/627dc2caf9.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+   
+
+</head>
+<body  style="align-items: center;background-color:#ebeaf3 ;text-align: center; ">
+ 
+    <div id="menu">
+        <div id="hello">Quiz
+       
+    </div>
+    <div id="number" style="color: #f3f3f3; font-weight: 700;">
+        1
+    </div>
+           <div class="dropdown">
+            <i id="dots" class="fa-solid fa-ellipsis fa-lg" style="color: #f3f3f3; margin: 20px;"></i>         
+            <div id="content">
+               
+                <a href="http://127.0.0.1:5500/ "style="text-decoration:none;  color:#3b0764 ; font-size:large;" target="_blank">How are you feeling</a><br>
+                <a href="http://127.0.0.1:5501/index.html" style="text-decoration: none; color:#3b0764;font-size:large;" target="_blank">Guess the celebrity</a>
+            </div>
+            
+           </div>
+    
+       </div>
+       <div class="grid-container">
+         <aside  id="aside1" style="background-image: url('./materials/qm.png'); width: 200px ;height:1000px;background-size: cover;display: inline-block; color: white;">
+        hi
+    </aside>
+       <main>
+    <h1 id="naslov" style="font-family: Poetsen One; color:#3b0764 ;">
+        Guess the celebrity!
+    </h1>
+ 
+    <div>
+        <img id="image" src="./materials/obama.kid.png" alt="ne radi" width="300px" style="margin-top: 30px;">
+    </div>
+
+        <div class="buttons">
+            <button id="opt1"><i class="fa-solid fa-circle fa-2xs" style="color: #29175e;margin-right: 10px;"></i><i id="x" class="fa-solid fa-xmark" style="color: #1c103d;"></i></button><br>
+            <button id="opt2"><i class="fa-solid fa-circle fa-2xs" style="color: #29175e; margin-right: 10px;"></i><i id="x" class="fa-solid fa-xmark" style="color: #1c103d;"></i></button><br>
+            <button id="opt3"><i class="fa-solid fa-circle fa-2xs" style="color: #29175e;margin-right: 10px;"></i><i id="x" class="fa-solid fa-xmark" style="color: #1c103d;"></i></button>
+
+        </div>
+        <button id="next" style="background-color:#3b0764 ; border-radius: 4px; color:#f3f3f3;height: 40px; position: absolute; margin: 20px;" onmouseover="this.style.backgroundColor='#0e0724'; this.style.fontWeight='800'" onmouseout="this.style.backgroundColor='#3b0764'; this.style.fontWeight='normal';">Next page</button>
+    </main>
+    
+    <aside  id="aside2" style="background-image: url('./materials/qm.png'); width: 200px ;height:1000px;background-size: cover;display:inline-block;position: right;color: white;">
+        hi
+    </aside>
+   
+   
+    
+</div>
+    <script src="./scripts/quiz.js"></script>
+</body>
+</html>

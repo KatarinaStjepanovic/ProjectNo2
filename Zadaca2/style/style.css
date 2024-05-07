@@ -1,0 +1,162 @@
+#menu{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    background-color: #5b21b6;
+    height: 65 px;
+   max-height: 65Spx;
+
+  
+    
+}
+
+#dots{
+    display: inline-block;
+    
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+    justify-content: space-between;
+   
+}
+
+
+#content{
+    display: none;
+    position: absolute;
+    color: #2e1065;
+    background-color: white;
+    /*min-width: 160px;*/
+    z-index: 1;
+box-shadow: 3px -0px 2px rgba(8, 54, 181, 0.02),
+10px -1px 8px rgba(8, 54, 181, 0.04),
+23px -2px 18px rgba(8, 54, 181, 0.07),
+42px -3px 32px rgba(8, 54, 181, 0.09),
+65px -5px 50px rgba(8, 54, 181, 0.11);
+     font-family: Freeman;
+     text-align: center;
+             
+
+}
+
+.dropdown:hover #content{
+   display:block;
+   min-width: 200px;
+  
+   
+}
+
+.dropdown a:hover{
+    color:#1f0a45;
+    font-weight: 800;
+}
+#hello:hover{
+    font-size: large;
+    color: rgb(252, 252, 252);
+    cursor: pointer;
+}
+#hello{
+    font-family: "Poetsen One", sans-serif; 
+    color: white; 
+    margin: 20px;
+    display: flex;
+}
+#main1{
+  align-items: center;
+}
+
+  .poetsen-one-regular {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:#2e1065;
+  }
+.buttons{
+    text-align: left;
+    flex-direction: column;
+    margin: auto 400px auto 400px;
+    
+    
+}
+  #opt1, #opt2, #opt3{
+     color: #2e1065;
+     font-weight: 600;
+     font-size: large;
+     background-color: #ebeaf3;
+     border: none;
+     border-radius: 6px;
+     margin:20px;
+     height: 40px;
+     min-width: 200px;
+     align-items: center;
+     
+
+   display: flex;
+     
+    
+
+  }
+  #opt1:hover{
+    font-weight: 800;
+    /* https://smoothshadows.com/#djEsMSw1LDAuMDgsMjQsMzIsMCwjNTUxYjY5LCNmM2Y0ZjYsI2ZmZmZmZiwy */
+box-shadow: 0px 1px 1px rgba(85, 27, 105, 0.02),
+0px 5px 4px rgba(85, 27, 105, 0.03),
+0px 12px 9px rgba(85, 27, 105, 0.05),
+0px 20px 15px rgba(85, 27, 105, 0.06),
+0px 32px 24px rgba(85, 27, 105, 0.08);
+
+  }
+  #opt2:hover{
+    font-weight: 800;
+    /* https://smoothshadows.com/#djEsMSw1LDAuMDgsMjQsMzIsMCwjNTUxYjY5LCNmM2Y0ZjYsI2ZmZmZmZiwy */
+box-shadow: 0px 1px 1px rgba(85, 27, 105, 0.02),
+0px 5px 4px rgba(85, 27, 105, 0.03),
+0px 12px 9px rgba(85, 27, 105, 0.05),
+0px 20px 15px rgba(85, 27, 105, 0.06),
+0px 32px 24px rgba(85, 27, 105, 0.08);
+
+  }
+
+  #opt3:hover{
+    font-weight: 800;
+    /* https://smoothshadows.com/#djEsMSw1LDAuMDgsMjQsMzIsMCwjNTUxYjY5LCNmM2Y0ZjYsI2ZmZmZmZiwy */
+box-shadow: 0px 1px 1px rgba(85, 27, 105, 0.02),
+0px 5px 4px rgba(85, 27, 105, 0.03),
+0px 12px 9px rgba(85, 27, 105, 0.05),
+0px 20px 15px rgba(85, 27, 105, 0.06),
+0px 32px 24px rgba(85, 27, 105, 0.08);
+
+  }
+  .grid-container{
+    display: grid;
+    grid-template-columns:1fr auto 1fr ;
+    grid-template-areas:
+    'aside1 main1 aside2';
+    
+  }
+  main{
+    grid-area: main1;
+    height: auto;
+    margin: 20px;
+  }
+
+#aside1{
+     grid-area: aside1;
+  }
+  #aside2{
+    grid-area: aside2;
+
+  }
+  
+ 
+
+
+
+  
+
+
+
+
+  
+  
